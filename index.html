@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Nodes</title>
+        <script src="script.js"></script>
+    </head>
+    <body style="margin: 0; background-color: black;">
+        <canvas id="canvas" width="1920" height="900"></canvas>
+    </body>
+    <script>
+        const canvas = new Canvas(document.getElementById("canvas"));
+        canvas.addNodes(100);
+        canvas.frameRate = 60;
+        canvas.begin();
+    </script>
+</html>
