@@ -1,6 +1,6 @@
 # Connected nodes
 
-Animated nodes on html canvas creating connections to each others while moving.
+**Animated nodes on html canvas creating connections to each others while moving.**
 ![](https://raw.githubusercontent.com/rekomerio/connected-nodes/master/video/1.gif)
 
 ## Class properties
