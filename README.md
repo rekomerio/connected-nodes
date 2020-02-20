@@ -1,6 +1,7 @@
 # Connected nodes
 
 Animated nodes on html canvas creating connections to each others while moving.
+![](https://raw.githubusercontent.com/rekomerio/connected-nodes/master/video/1.gif)
 
 ## Class properties
 
@@ -19,9 +20,6 @@ Animated nodes on html canvas creating connections to each others while moving.
     begin(): Function - Start rendering and updating
     stop(): Function - Stop rendering and updating
 ```
-
-![](https://raw.githubusercontent.com/rekomerio/connected-nodes/master/video/1.gif)
-
 ## Example component for using with React
 
 See in action in my portfolio:
