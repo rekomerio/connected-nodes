@@ -2,19 +2,25 @@
 
 Animated nodes on html canvas creating connections to each others while moving.
 
-## Public members
+## Class properties
 
 ```
-    width: 1920,
-    height: 800,
-    numNodes: 50,
-    vectorLength: 200,
-    frameRate: 60,
-    showFps: false,
-    nodeSize: 2,
-    vectorThickness: 0.1,
-    textColor: "#fff"
+    width: Number,
+    height: Number,
+    numNodes: Number,
+    vectorLength: Number,
+    frameRate: Number,
+    showFps: Boolean,
+    nodeSize: Number,
+    vectorThickness: Number,
+    textColor: String
+    addNodes(num): Function - Add num of nodes
+    removeNodes(num): Function - Remove num of nodes
+    begin(): Function - Start rendering and updating
+    stop(): Function - Stop rendering and updating
 ```
+
+![](https://raw.githubusercontent.com/rekomerio/connected-nodes/master/video/1.gif)
 
 ## Example component for using with React
 
